@@ -1,9 +1,8 @@
 
 
-const useMoon = () => {
-    return ([
-        
-    ]);
+const useStar = () => {
+
+    return {};
 }
 
-export default useMoon;
+export default useStar;
