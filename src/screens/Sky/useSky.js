@@ -7,13 +7,13 @@ const useSky = () => {
         const newStars = stars;
 
         const star = {
-            
+
         }
 
-        newStars.push(star);
-
+        newStars.push(star)
+        
         setStars([...newStars]);
-    }
+    };
 
     return {
         stars,

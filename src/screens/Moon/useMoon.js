@@ -1,9 +1,9 @@
-import {useState} from "react";
+import React from "react";
 
 const useMoon = () => {
-    return ([
-        
-    ]);
+    return(
+        <></>
+    );
 }
 
 export default useMoon;

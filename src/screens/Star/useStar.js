@@ -1,8 +1,5 @@
-
-
 const useStar = () => {
-
-    return {};
-}
+  return {};
+};
 
 export default useStar;
