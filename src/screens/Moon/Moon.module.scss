@@ -4,4 +4,37 @@
     position: absolute;
     top: 25%;
     left: 25%;
+    z-index: 10;
+    transform: rotate(-25deg);
+    transition: 0.25s;
+}
+svg {
+    filter: drop-shadow(0px 0px 10px yellow);
+}
+._:hover svg {
+    animation: moon_scale infinite linear 0.5s;
+}
+._:hover {
+    animation: moon_rotate infinite linear 2.5s
+}
+@keyframes moon_rotate {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes moon_scale {
+    0%{
+        transform: scale(0.5, 3);
+
+    }
+    50%{
+        transform: scale(2, 1);
+    }
+    100%{
+        transform: scale(0.5, 3);
+    }
 }
